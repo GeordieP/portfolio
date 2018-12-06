@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans-Regular.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans-Bold.ttf');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FF Meta';
+  src: url('./fonts/FFMetaVariable.ttf');
+  font-display: swap;
+  font-variation-settings:
+    'wght' 100,
+    'ital' 0;
+}

@@ -1,0 +1,43 @@
+.Layout {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100%;
+}
+
+.Layout--landing {
+  grid-template-areas:
+    "Layout_Header"
+    "Layout_Nav"
+    "Layout_Main";
+}
+
+.Layout--standard {
+  grid-template-areas:
+    "Layout_Nav"
+    "Layout_Main";
+}
+
+header {
+  grid-area: Layout_Header;
+}
+
+nav {
+  grid-area: Layout_Nav;
+}
+
+main {
+  grid-area: Layout_Main;
+}
+
+@media screen and (min-width: 760px) {
+  .Layout--standard {
+    width: var(--content-width);
+    max-width: var(--max-content-width);
+  }
+
+  .Layout--landing main {
+    width: var(--content-width);
+    max-width: var(--max-content-width);
+    margin-top: 40px;
+  }
+}

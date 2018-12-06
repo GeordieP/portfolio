@@ -1,0 +1,11 @@
+:root {
+  font-size: 13px;
+
+  /* variables */
+  --clr-primary: #3BA3E8;
+  --clr-secondary: #8a73ff;
+  --clr-black: #34394A;
+  --clr-gray: #9EA3AF;
+  --spc-med: 1.2rem;
+  --content-width: 100%;
+}

@@ -1,0 +1,144 @@
+.IntroHeader {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 125vh;
+  width: 100%;
+  margin: 0;
+  background: linear-gradient(to top right, var(--clr-primary), var(--clr-secondary));
+}
+
+/* set z-index to render above canvas */
+.IntroHeader-content, .IntroHeader-downArrow, .IntroHeader nav {
+  z-index: 1;
+}
+
+.IntroHeader nav a {
+  color: white;
+}
+
+.IntroHeader-content {
+  display: flex;
+  height: 125%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.IntroHeader-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.IntroHeader-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.IntroHeader-title h1 {
+  font-family: 'Open Sans';
+  color: rgba(255, 255, 255, 0.9);
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  letter-spacing: -0.1rem;
+  font-weight: lighter;
+}
+
+.IntroHeader-title h2 {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.IntroLogo {
+  height: 16rem;
+  width: 16rem;
+  margin: 0 0 2rem 0;
+  fill: white;
+}
+
+#particleCanvas {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.IntroHeader-downArrowWrap {
+  margin-top: 10vh;
+}
+
+.downArrow {
+  color: white;
+  opacity: 0.5;
+  width: 4rem;
+  height: 4rem;
+  animation: arrowBounce 4s infinite;
+  animation-timing-function: ease;
+  transition: opacity 0.3s ease;
+}
+
+.downArrow:hover {
+  opacity: 1;
+}
+
+.WaveWrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+.Wave {
+  transform: translateX(-50vw);
+}
+
+.LandingContent {
+  transform: translateY(-70px);
+}
+
+@keyframes arrowBounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(15px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .IntroHeader-inner {
+    flex-direction: row;
+  }
+
+  .LandingContent {
+    transform: translateY(-100px);
+  }
+
+  .IntroLogo {
+    width: 11rem;
+    height: 11rem;
+    margin: 0 2rem 0 0;
+  }
+
+  .IntroHeader-title h2 {
+    width: 100%;
+    text-align: right;
+  }
+
+  .Wave {
+    width: 100vw;
+    transform: none;
+  }
+}
