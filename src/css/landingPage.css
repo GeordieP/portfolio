@@ -34,6 +34,14 @@
   align-items: center;
 }
 
+.fade { animation: 1s ease-in 0s normal forwards 1 fadeAnim; }
+.slowFade { animation: 2s ease-in 0s normal forwards 1 fadeAnim; }
+@keyframes fadeAnim {
+	0% { opacity: 0; }
+	40% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
 .IntroHeader-title {
   display: flex;
   flex-direction: column;

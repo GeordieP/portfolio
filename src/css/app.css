@@ -113,6 +113,9 @@ main {
   background: white;
   width: 100%;
 }
+.Project img {
+  transition: opacity 0.2s ease;
+}
 .Project img:hover {
   opacity: 0.8;
 }

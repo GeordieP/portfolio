@@ -22,7 +22,7 @@ export default () => (
       <ParticleCanvas />
 
       <div className='IntroHeader-content'>
-        <div className='IntroHeader-inner'>
+        <div className='IntroHeader-inner fade'>
           <GPLogoSolid className='IntroLogo' />
 
           <div className='IntroHeader-title'>
@@ -31,7 +31,7 @@ export default () => (
           </div>
         </div>
 
-        <AnchorLink href='#nav' className='IntroHeader-downArrow'>
+        <AnchorLink href='#nav' className='IntroHeader-downArrow slowFade'>
           <ChevronDown className='downArrow' />
         </AnchorLink>
       </div>
