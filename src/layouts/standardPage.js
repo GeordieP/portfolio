@@ -14,7 +14,7 @@ const Contact = loadable(() => import('../pages/contact'));
 // Logo and navbar in a row at the top of the page, all page content beneath.
 
 export default () => (
-  <div className='Layout Layout--standard'>
+  <div className='Layout Layout--standard fastFade'>
     <nav className='u-flexH u-spaceBetween u-centerMain'>
       <div>
         <Link to='/'>
