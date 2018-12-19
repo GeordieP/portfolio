@@ -40,6 +40,7 @@ export default () => (
         <Link to='/projects'>Projects</Link>
         <Link to='/blog'>Blog</Link>
         <Link to='/contact'>Contact</Link>
+        <a href='https://github.com/GeordieP' target='GeordieP_GitHub'>GitHub</a>
       </nav>
 
       <div className='WaveWrap'>
