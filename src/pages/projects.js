@@ -1,5 +1,6 @@
 import React from 'react';
 
+import shoppingImg from '../img/shopping-mocks.png';
 import trackerImg from '../img/issue-tracker.png';
 import twitchiImg from '../img/twitchi-home.png';
 
@@ -21,6 +22,28 @@ const ProjectLinks = ChildrenComponent('ul', 'ProjectLinks u-flexH');
 export default () => (
   <>
     <h1 className='PageHeader'>Projects</h1>
+
+    <Project>
+      <ProjectHeader>
+        <h1>Shopping App Prototype</h1>
+      </ProjectHeader>
+
+      <h4>React (16.7.x alpha; hooray for hooks!)</h4>
+
+      <ProjectLinks>
+        <li><a href='https://github.com/GeordieP/shopping-proto' target='GeordieP_GitHub'>GitHub Page</a></li>
+      </ProjectLinks>
+
+      <p>Work-in-progress prototyle for a shopping list management app.</p>
+
+      <p>The plan is to eventually build this app in React Native and publish it for iOS and Android, but the current iteration is a standard React web-app in order to work through the whole idea and figure out any issues ahead of time.</p>
+
+      <p>Below are a few screenshots from the initial design mockup (designed with <a href='https://framer.com/'>Framer X</a>).</p>
+
+      <a href={shoppingImg} className='u-flexH u-centerMain' target='GeordieP_Image'>
+        <img src={shoppingImg} className='PreviewImage noShadow' alt='Design mockups for shopping list app' />
+      </a>
+    </Project>
 
     <Project>
       <ProjectHeader>
