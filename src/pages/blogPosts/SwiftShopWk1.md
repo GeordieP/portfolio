@@ -1,6 +1,6 @@
 # Building Swift Shop - Week 1 (Nov 16 - 23, 2019)
 
-#### Nov 24, 2018
+#### Nov 24, 2019
 
 This is the beginning of a series of (hopefully) weekly blog posts about my first experiences using SwiftUI to build an iOS app.
 
@@ -32,7 +32,7 @@ Previous prototypes of the app relied heavily on a custom React Hook for filteri
 
 # Starting Out
 
-Writing the initial views and wiring up some basic state management with SwiftDux was a breeze. While there were occasional cases where Xcode's completion would provide less-than-useful options, or stubborn type errors would persist until an editor restart, the experience was pleasant. It is however apparent that SwiftUI is new and a bit rough around the edges (e.g. [Errors originating in a child View's code being presented in the parent View](https://stackoverflow.com/questions/58724301/cannot-convert-value-of-type-bindingint-to-expected-argument-type-binding), but these problems will no doubt see improvement over time.
+Writing the initial views and wiring up some basic state management with SwiftDux was a breeze. While there were occasional cases where Xcode's completion would provide less-than-useful options, or stubborn type errors would persist until an editor restart, the experience was pleasant. It is however apparent that SwiftUI is new and a bit rough around the edges (e.g. [Errors originating in a child View's code being presented in the parent View](https://stackoverflow.com/questions/58724301/cannot-convert-value-of-type-bindingint-to-expected-argument-type-binding)), but these problems will no doubt see improvement over time.
 
 The real beauty of SwiftUI is its contextual awareness. Unlike the web where most styling is done by hand, iOS has a very consistent set of controls for most of the scenarios one would encounter. The framework has been thoughtfully designed to give developers access to these controls with minimal effort; for example, adding the common "slide to delete" button to each item in a List view is as easy as calling a method on the `ForEach` block itself:
 
