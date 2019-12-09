@@ -1,5 +1,3 @@
-# Week 2
-
 # Building Swift Shop - Week 2 (Nov 23 - 30, 2019)
 
 #### Dec 1, 2019
