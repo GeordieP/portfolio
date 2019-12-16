@@ -162,6 +162,8 @@ After these changes, the list could be filtered and deleting items worked as int
 - Buttons to add and remove a placeholder search filter (searching for any products containing the string "ir")
 - Slide to delete a product from the list
 
-<video controls alt="Week 1 Progress Video">
-  <source src="https://giant.gfycat.com/SlimLameCardinal.mp4" type="video/mp4" />
-</video>
+<div align="center">
+  <video controls alt="Week 1 Progress Video">
+    <source src="https://giant.gfycat.com/SlimLameCardinal.mp4" type="video/mp4" />
+  </video>
+</div>

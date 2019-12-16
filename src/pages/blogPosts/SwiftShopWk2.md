@@ -71,6 +71,8 @@ When a user types a character in the text field, the `setSearch` function is cal
 - SwiftDux store and actions are mostly set up for Lists state
 - Added a real search bar to the products page:
 
-<video controls alt="Week 2 Progress Video">
-  <source src="https://giant.gfycat.com/ClassicSoupyBallpython.mp4" type="video/mp4" />
-</video>
+<div align="center">
+  <video controls alt="Week 2 Progress Video">
+    <source src="https://giant.gfycat.com/ClassicSoupyBallpython.mp4" type="video/mp4" />
+  </video>
+</div>
