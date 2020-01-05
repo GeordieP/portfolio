@@ -6,6 +6,12 @@ const postWithTitle = title =>
 // For now, no fancy CMS-like features. Maybe later when I've written more posts.
 // Manually export the post data, along with async components for their full pages.
 export default {
+  SwiftShop6: {
+    title: "Building Swift Shop - Week 6 (Dec 29 2019 - Jan 04 2020)",
+    summary: "Week 6 - Cleaning things up with ADTs",
+    date: "Jan 5 2020",
+    component: postWithTitle("SwiftShopWk6")
+  },
   SwiftShop5: {
     title: "Building Swift Shop - Week 5 (Dec 16 - 21, 2019)",
     summary: "Week 5 - Edit form model refactor",
